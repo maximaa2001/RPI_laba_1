@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1800px;
+    height: 100%;
+    background-color: white;
+}
+
+header {
+    width: 1800px;
+    height: 988px;
+    position: relative;
+ //   border: 2px solid black;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/background.png);
+}
+
+.icons-and-main-text {
+    position: absolute;
+    top: 325px;
+    width: 100%;
+    height: 240px;
+    display: flex;
+}
+
+.main-text-and-buttons {
+    width: 1400px;
+    height: 240px;
+    margin-left: 200px;
+    line-height: 56px;
+    font-family: 'TitilliumWeb';
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #454545;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-text {
+    width: 1400px;
+    height: auto;
+}
+
+.icons {
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.icons a {
+    font-size: 22px;
+    padding-right: 38px;
+    padding-top: 12px;
+    color: #454545;
+}
+
+.text-under-main {
+    font-size: 36px;
+    font-style: normal;
+    color: #464646;
+}
+
+.text-red {
+    font-size: 36px;
+    font-style: normal;
+    color: #fc2028;
+}
+
+.three-buttons {
+    width: 1400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.but_create-account {
+    width: 245px;
+    height: 57px;
+    background: url(images/createaccount.png);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+    font-family: 'TitilliumWeb';
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.but_create-account:active {
+    background: #45a3e4;
+}
+
+.but_app-store {
+    width: 46px;
+    height: 46px;
+    background: url(images/ellipse.png);
+    border-radius: 75px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #5f2966;
+    margin-right: 20px;
+}
+
+.but_app-store:active {
+    background: #45a3e4;
+}
+
+.but_google-play {
+    width: 46px;
+    height: 46px;
+    background: url(images/ellipse.png);
+    border-radius: 75px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #5f2966;
+}
+
+.but_google-play:active {
+    background: #45a3e4;
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    right: 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 60px;
+}
+
+.neutron {
+    font-family: 'TitilliumWeb';
+    font-weight: bold;
+    font-size: 30px;
+    color: #858688;
+}
+
+.mail {
+    color: #5b4295;
+}
+
+a {
+    cursor: pointer;
+}
+
+.nav {
+    margin-right: 0;
+    margin-left: auto;
+  //  border: 2px solid silver;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+.element {
+    display: inline;
+    font-family: 'TitilliumWeb';
+    font: normal;
+    font-size: 16px;
+    color: #454545;
+    margin-right: 22px;
+}
+
+.last-element {
+    display: inline;
+    font-family: 'TitilliumWeb';
+    font: normal;
+    font-size: 16px;
+    color: #454545;
+    margin-right: 50px;
+}
+
+.cont {
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    width: auto;
+    height: 100%;
+ //   border: 2px solid silver;
+}
+
+.cont_2 {
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    width: auto;
+    height: 100%;
+  //  border: 2px solid silver;
+}
+
+.auth {
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    width: 85px;
+    font-family: 'TitilliumWeb';
+    color: #454545;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.login i {
+    color: #582c7e;
+    padding-right: 5px;
+}
+
+.but_sign-up {
+    width: 94px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: url(images/signup.png);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.but_sign-up:active {
+    background: url(images/sugnup_blue.png);
+}
+
+.lang,
+.slash {
+    font-family: 'TitilliumWeb';
+    font-size: 14px;
+    font-style: normal;
+    color: #959595;
+    margin-right: 10px;
+}
+
+#english {
+    font-weight: bold;
+    border-bottom: 1px solid #647397;
+}
+
+.items {
+    position: absolute;
+    top: 915px;
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+.item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#item_1 {
+    width: 512px;
+    margin-left: 200px;
+}
+
+#item_2 {
+    width: 433px;
+    border-right: 1px solid #b9b9b9;
+}
+
+#item_3 {
+    width: 455px;
+    float: left;
+}
+
+.title {
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+#title_1{
+     border-right: 1px solid #b9b9b9;
+}
+
+.line_1{
+    position: absolute;
+    top: 788px;
+    width: 712px;
+    height: 126px;
+    border-right: 1px solid #b9b9b9;
+}
+
+.line_2{
+    position: absolute;
+    top: 915px;
+    left: 1610px;
+    width: 190px;
+    height: 73px;
+    border-top: 1px solid #b9b9b9;
+}
+
+
+#emblem_1 {
+    width: 54px;
+    height: 63px;
+    background: url('images/shield.png');
+}
+
+#emblem_2 {
+    width: 80px;
+    height: 67px;
+    background: url('images/lock.png');
+    margin-left: -100px;
+}
+
+#emblem_3 {
+    width: 70px;
+    height: 60px;
+    background: url('images/key.png');
+    margin-left: -90px;
+}
+
+.first-line, .second-line{
+    padding-left: 10px;
+    font-family: 'TitilliumWeb';
+}
+
+.first-line {
+    font-size: 30px;
+    color: #555555;
+    line-height: 37px;
+}
+
+.second-line {
+    font-size: 18px;
+    color: #959393;
+    line-height: 22px;
+}
+
+#second-block-first-line{
+    margin-left: -15px;
+}
+
+#second-block-second-line{
+    margin-left: -15px;
+}
+
+.about_1, .about_2, .about_3{
+    font-family: 'TitilliumWeb';
+    font-size: 14px;
+    color: #959393;
+    line-height: 22px;
+}
+.about_1 {
+    padding-left: 125px;
+}
+
+.about_2 {
+    padding-left: 30px;
+}
+
+.about_3 {
+    padding-left: 45px;
+}
