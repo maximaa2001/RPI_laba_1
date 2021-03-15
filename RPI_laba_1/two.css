@@ -14,6 +14,7 @@ header {
     background-position: center;
 }
 
+
 /*
 .cont_1 {
     position: absolute;
@@ -127,21 +128,23 @@ header {
     transition: 0.5s;
 }
 
-.but_sign-up:hover{
-     transform: translate(0,-10px);
+.but_sign-up:hover {
+    transform: translate(0, -10px);
     transition: 0.5s;
 }
-
 
 .but_sign-up:active {
     background: #45a3e4;
     transition: 0.1s;
 }
 
-
-.languages{
+.languages {
     width: 13%;
     margin-left: 11%;
+}
+
+.languages a{
+    cursor: pointer;
 }
 
 .lang,
@@ -157,14 +160,14 @@ header {
     border-bottom: 1px solid #647397;
 }
 
-.center{
+.center {
     width: 100%;
     height: 240px;
     margin-top: 9%;
     display: flex;
 }
 
-.main-text{
+.main-text {
     width: 56%;
     margin-left: 22%;
     height: 100%;
@@ -172,7 +175,7 @@ header {
     flex-direction: column;
 }
 
-.text{
+.text {
     width: 100%;
     height: 120px;
     font-weight: 600;
@@ -182,25 +185,25 @@ header {
     line-height: 56px;
 }
 
-.first-part{
+.first-part {
     font-size: 36px;
     font-style: normal;
     color: #464646;
 }
 
-.second-part{
+.second-part {
     font-size: 36px;
     font-style: normal;
     color: #fc2028;
 }
 
-.three-buttons{
+.three-buttons {
     width: 100%;
     height: calc(100% - 120px);
     display: flex;
 }
 
-.btn_create-account{
+.btn_create-account {
     width: 245px;
     height: 57px;
     background: url(images/createaccount.png);
@@ -217,16 +220,15 @@ header {
     transition: 0.5s;
 }
 
-.btn_create-account:hover{
-   transform: translate(0,-10px);
+.btn_create-account:hover {
+    transform: translate(0, -10px);
     transition: 0.5s;
 }
 
-.btn_create-account:active{
-   background: #45a3e4;
+.btn_create-account:active {
+    background: #45a3e4;
     transition: 0.1s;
 }
-
 
 .btn_app-store {
     width: 46px;
@@ -244,15 +246,14 @@ header {
     transition: 0.5s;
 }
 
-.btn_app-store:hover{
-   transform: translate(0,-10px);
+.btn_app-store:hover {
+    transform: translate(0, -10px);
     transition: 0.5s;
 }
 
 .btn_app-store:active {
     background: #45a3e4;
     transition: 0.1s;
-
 }
 
 .btn_google-play {
@@ -271,8 +272,8 @@ header {
     transition: 0.5s;
 }
 
-.btn_google-play:hover{
-   transform: translate(0,-10px);
+.btn_google-play:hover {
+    transform: translate(0, -10px);
     transition: 0.5s;
 }
 
@@ -281,7 +282,7 @@ header {
     transition: 0.1s;
 }
 
-.icons{
+.icons {
     width: 11%;
     height: 50%;
     margin-left: 11%;
@@ -290,7 +291,7 @@ header {
     align-items: flex-end;
 }
 
-.icons a{
+.icons a {
     margin-bottom: 10px;
     font-size: 22px;
     font-size: 22px;
@@ -298,7 +299,7 @@ header {
     cursor: pointer;
 }
 
-.three-headers{
+.three-headers {
     display: flex;
     width: 78%;
     height: 8%;
@@ -306,50 +307,52 @@ header {
     margin-left: 11%;
 }
 
-.first_item, .second_item, .third_item{
+.first_item,
+.second_item,
+.third_item {
     display: flex;
-   // justify-content: center;
+    // justify-content: center;
     align-items: center;
 }
 
-.first_item{
+.first_item {
     width: 37%;
     height: 100%;
     border-right: 1px solid #b9b9b9;
 }
 
-.second_item{
+.second_item {
     width: 31%;
     height: 100%;
     border-right: 1px solid #b9b9b9;
 }
 
-.third_item{
+.third_item {
     width: 32%;
     height: 100%;
 }
 
-.image{
+.image {
     width: 67px;
     height: 60px;
 }
 
-.first_item .image{
+.first_item .image {
     background: url('images/shield.png');
     margin-left: 45px;
 }
 
-.second_item .image{
+.second_item .image {
     background: url('images/lock.png');
     margin-left: 10px;
 }
 
-.third_item .image{
+.third_item .image {
     background: url('images/key.png');
-     margin-left: 10px;
+    margin-left: 10px;
 }
 
-.name{
+.name {
     margin-left: 20px;
 }
 
@@ -365,8 +368,7 @@ header {
     line-height: 22px;
 }
 
-
-.articles{
+.articles {
     width: auto;
     height: 100px;
     margin-left: 11%;
@@ -374,45 +376,45 @@ header {
     display: flex;
 }
 
-.first_article, .second_article, .third_article{
+.first_article,
+.second_article,
+.third_article {
     font-size: 14px;
     color: #959393;
     line-height: 22px;
 }
 
-.first_article{
+.first_article {
     width: 37%;
     height: 100%;
 }
 
-.second_article{
+.second_article {
     width: 31%;
     height: 100%;
-
 }
 
-.third_article{
+.third_article {
     width: 32%;
     height: 100%;
 }
 
-.about_1{
+.about_1 {
     width: 100%;
     margin-left: 12%;
 }
 
-.about_2{
+.about_2 {
     width: 94%;
     margin-left: 6%;
-
 }
 
-.about_3{
-  width: 100%;
-  margin-left: 6%;
+.about_3 {
+    width: 100%;
+    margin-left: 6%;
 }
 
-.line_1{
+.line_1 {
     position: absolute;
     top: 907px;
     left: 1369px;
@@ -421,24 +423,10 @@ header {
     border-top: 1px solid #b9b9b9;
 }
 
-.line_2{
+.line_2 {
     position: absolute;
     top: 850px;
     width: 604.5px;
     height: 147px;
     border-right: 1px solid #b9b9b9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
