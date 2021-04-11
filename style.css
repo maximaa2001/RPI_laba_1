@@ -626,3 +626,339 @@ header{
 
 
 
+                    /*Моя часть*/
+.wrapper_3{
+  background-size: 100%;
+    background: url(images/background-blog.png) no-repeat 100% 280%;
+    width: 1800px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+
+
+
+
+.privacy{
+    width: 100%;
+    height: 430px;
+  
+}
+
+
+
+
+
+
+
+.div3{
+
+/*  text-align: center;*/
+  position: flex;
+/*    top: 2315.082px;*/
+  margin-top: 81px;
+}
+
+
+
+.t1{
+    position: flex;
+    margin-left: 610px;
+    top: 2292px;
+    font-family: "TitilliumWeb";
+    font-size: 36pt; 
+    
+}
+
+.t2{
+    position: flex;
+    margin-left: 567px;
+    top: 2337px;
+    font-family: "TitilliumWeb";
+    font-size: 29pt;
+    color: rgb( 122, 122, 122 );
+}
+
+
+.line1_1{
+  background-color: rgb( 185, 185, 185 );
+  position: flex;
+  margin-left: 400px;
+  top: 2212px;
+  width: 1400px;
+  height: 1px;
+}
+
+.div7{
+     margin-top: 55px;
+    position: flex;
+}
+
+
+.upgrade{
+     position: absolute;
+    margin-left: 691px;
+    background: url(images/Layer%208.png) no-repeat center top / cover;
+   width: 245px;
+   height: 61px;
+}
+
+.upgrade:hover{
+    background: #45a3e4;
+    border-radius: 30px;
+}
+
+
+
+.t3{
+        text-align: center;
+   font-size: 18px;
+   font-family: "FontAwesome";
+   left: 691px;
+   padding: 29px;
+   color: rgb( 255, 255, 255 ); 
+      line-height: 3.7;
+}
+
+
+.t4{
+    text-align: center;
+   font-size: 18px;
+   font-family: "FontAwesome";
+   left: 1012px;
+   padding: 45px;
+   padding-bottom: 100px;
+   line-height: 3.7;
+   color: #ffffff;
+}
+
+.donate{
+    position: absolute;
+    margin-left: 1030px;
+/*    float: right;*/
+    background: url(images/Layer%2032.png) no-repeat center top / cover;
+    width: 165px;
+    height: 61px;
+}
+
+.donate:hover{
+    background: darkmagenta;
+    border-radius: 30px;
+}
+
+.footer{
+    position: flex;
+    width: 100%;
+    height: 430px;
+}
+
+
+.line2_2{
+
+  background-color: rgb( 185, 185, 185 );
+  position: absolute;
+  left: 0px;
+  width: 1400px;
+  height: 1px;
+}
+
+
+
+.line3_3{
+  background-color: rgb( 185, 185, 185 );
+  position: absolute;
+  left: 1400px;
+  width: 1px;
+  height: 445px;
+}
+
+.who{
+  
+}
+
+
+.who_help{
+  margin-top: 23px;
+  font-size: 14px;
+  font-family: "TitilliumWeb";
+  text-align: left;
+  position: absolute;
+  left: 1105px;
+ 
+  color: #7a7a7a;
+ font-weight: 400;
+
+}
+
+.who1{
+    
+}
+
+
+.logo{
+    margin-top: 41px;
+  position: absolute;
+  left: 426px;
+  
+}
+
+
+
+
+
+.line4_4{
+  background-color: rgb( 185, 185, 185 );
+  position: absolute;
+  left: 137px;
+  margin-top: 288px;
+  width: 1px;
+  height: 131px;
+}
+
+.line5_5{
+  background-color: rgb( 185, 185, 185 );
+  position: absolute;
+  left: 886px;
+  margin-top: 288px;
+  width: 1px;
+  height: 317px;
+}
+
+.mail1{
+position: absolute;
+margin-top: 288px;
+left: 157px;
+width: 213px;
+height: 130px;
+font-size: 14px;
+line-height: 1.643;
+color: #5c5c5c;
+font-family: "TitilliumWeb";
+text-align: right;
+}
+
+.t_after{
+    color: black;
+    font-weight: bold;
+}
+
+.t_end{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list_company{
+  list-style-type: none;
+  font-family: "TitilliumWeb";
+  color: rgb( 92, 92, 92 );
+  position: absolute;
+  left: 787px;
+  margin-top: 288px;
+  width: 74px;
+  height: 152px;
+  text-align: right;
+}
+
+.company{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.part_company{
+    font-size: 14px;
+}
+
+.list_legal{
+  list-style-type: none;
+  font-family: "TitilliumWeb";
+  color: rgb( 92, 92, 92 );
+  text-align: right;
+  position: absolute;
+  left: 972px;
+  margin-top: 288px;
+  width: 137px;
+  height: 155px; 
+}
+
+.legal{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.part_legal{
+    font-size: 14px;
+}
+
+
+.list_neutron{
+  list-style-type: none;
+  font-family: "TitilliumWeb";
+  color: rgb( 92, 92, 92 );
+  text-align: right;
+  position: absolute;
+  left: 1195px;
+  margin-top: 288px;
+  width: 137px;
+  height: 155px; 
+}
+
+.neutron{
+    color: black;
+    margin-left: -160px;
+    font-size: 18px;
+   font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.part_neutron{
+    font-size: 14px;
+}
+
+
+.social_sety{
+  position: absolute;
+  left: 137px;
+  margin-top: 530px;
+  width: 362px;
+  height: 12px;
+}
+
+.ff{
+    color: white;
+}
+
+.soc_sety{
+  font-size: 12px;
+  font-family: "TitilliumWeb";
+  color: 7a7979;
+  
+}
+
+.sety{
+    text-decoration: underline;
+    
+}
+
+
+.avtograf{
+   position: absolute;
+  left: 137px;
+  margin-top: 560px;
+  width: 277px;
+  height: 12px; 
+}
+
+
+.avtogr{
+  font-size: 12px;
+  font-family: "TitilliumWeb";
+  color: 5a5a5a;
+}
+
+
+
